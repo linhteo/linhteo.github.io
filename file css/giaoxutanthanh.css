@@ -1,0 +1,404 @@
+#layout{
+	width: 100%;
+	margin: auto;
+	background-color: #F2F2F2;
+}
+.leftmenu{
+	width: 400px;
+	height: 40px;
+	background-color: #424242;
+	float: left;
+}
+.header{
+	width: 100%px;
+	height: 40px;
+	background-color: #424242;
+}
+.menu{
+	
+	margin-left: 50px;
+	margin-right: 50px;
+	height: 65px;
+	background-color: #151515;
+
+}
+.thanhtan{
+	width: 100%;
+	height: 140px;ss
+	background-color:white;
+}
+
+.imgup{
+
+      text-align:center;
+      background-color:black;
+     
+      filter:brightness(55%);
+
+
+}
+
+
+.mySlides {
+	display:;	
+}
+.dot {
+
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 5px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.5s ease;
+}
+.active, .dot:hover {
+  background-color: #717171;
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 3s;
+  animation-name: fade;
+  animation-duration: 3s;
+}
+
+
+
+#down{
+	width: 100%;
+    height:300px;
+    text-align: center;
+    background-color:blue;
+    margin-top: 7px;
+}
+.leftmenu ul li {
+	float:left;
+	margin-top: 8px;
+	margin-right:25px;
+	text-decoration:none;
+
+}
+.btn {
+  background-color: #424242; /* Blue background */
+  border: none; /* Remove borders */
+  color: white; /* White text */
+ 
+  cursor: pointer; /* Mouse pointer on hover */
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  color: #2E2EFE;
+}
+.btnn {
+  background-color: #424242; /* Blue background */
+  border: none; /* Remove borders */
+  color: white; /* White text */
+ 
+  cursor: pointer; /* Mouse pointer on hover */
+}
+.btnn:hover {
+  color: #B40431;
+}
+
+
+
+
+
+
+.sdt{
+
+	text-decoration:none;
+	display: block;
+}
+.sdt:not(.is-active):hover{
+     color: #CEECF5;
+ }
+
+.header ul li{
+	float:right;
+	margin-right:50px;
+	padding-left:1px;
+	margin-top:-6px;
+	margin-left:-10px;
+	color: #D8D8D8;
+	font-size: 15px;
+	font-weight: bold;
+}
+.header ul li a{
+	text-decoration:none;
+	color: #D8D8D8;
+	font-weight:bold;
+	display: block;
+	margin-top: 20px;
+}
+.cool-link::after{
+	content: '';
+	display: block;
+	width: 0;
+	height: 2px;
+	background-color:red;
+	transition:width .9s;
+	opacity: 0;
+	
+}
+.cool-link:hover::after{
+	width:100%;
+	transition:width .9s;
+	
+}
+.cool-link:not(.is-active):hover{
+     color: #FF0000;
+ }
+
+.cool-menu::after{
+	content: '';
+	display: block;
+	width: 0;
+	height: 3px;
+	background-color:red;
+	transition:width .9s;
+	opacity: 1;
+
+	
+}
+.cool-menu:hover:after{
+	width:100%;
+	transition:width .9s;
+	
+}
+
+.up{
+	width: 100%;
+	height: 600px;
+}
+.footer{
+	width: 100%;
+	height: 50px;
+	background-color: #151515;
+}
+ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+.menu ul li{       /*chỉnh sửa kích thước ul li a*/
+	float: left;
+	width: 150px;
+	height: 55px;/*//chỉnh sửa kích thước ul li a*/
+	opacity: .9;
+	line-height: 23px;
+	text-align:center;
+	padding-top:10px;
+	font-size: 18px;
+	margin-right:-15px;
+	font-weight: bold;
+	background-color:#151515;
+	color: #A4A4A4;
+
+	
+}
+.menu ul li a{
+	text-decoration:none;
+	color: #BDBDBD;
+	font-weight:bold;
+	display: block;
+	margin-top: 10px;
+}
+
+
+.menu input[type=Search] {
+  -webkit-appearance: textfield;
+  -webkit-box-sizing: content-box;
+  font-family: inherit;
+  font-size: 100%;
+}
+.menu input::-webkit-Search-decoration,
+.menu input::-webkit-Search-cancel-button {
+  display: none; 
+}
+
+
+.menu input[type=Search] {
+  background: #ededed url(https://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 10px center;
+  border: solid 1px #ccc;
+  padding: 9px 10px 9px 32px;
+  width: 55px;
+  margin-top:-5px;
+  margin-right:10px;
+  
+  -webkit-border-radius: 10em;
+  -moz-border-radius: 10em;
+  border-radius: 10em;
+  
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  transition: all .5s;
+}
+
+
+
+/*#demo-2 input[type=Search] {
+  width: 40px;
+  padding-left: 10px;
+  color: transparent;
+  cursor: pointer;
+  margin-top: 12px;
+}
+#demo-2 input[type=Search]:hover {
+  background-color: #fff;
+}
+#demo-2 input[type=Search]:focus {
+  padding-right:100px;
+  color:black;
+  background-color: #fff;
+  cursor: auto;
+}
+#demo-2 input:-moz-placeholder {
+  color: transparent;
+}
+#demo-2 input::-webkit-input-placeholder {
+  color: transparent;
+}
+*/
+
+.list-menu:not(.is-active):hover{
+     color: #FAFAFA;
+
+
+ }
+ .chuthich:not(.is-active):hover{
+     color: #FAFAFA;
+
+ }
+
+
+ 
+ul li ul li{
+	display: none;
+}
+ul li:hover ul li{
+	display: block;
+}
+ul li img{
+	width: 70px;
+	height: 60px;
+	padding-right: 20px;
+    margin-top:-13px; 
+}
+
+.listup{
+	text-decoration:none;
+	display: block;
+}
+.listup:not(.is-active):hover{
+     color: #FBFBEF;
+ }
+ 
+ 
+.footer ul li a{
+	padding-left:45%;
+	float: left;
+	color: #FFFFFF;
+}
+
+
+.slider {
+	
+  width: 100%;
+  height: 400px;
+  display:  flex;
+  overflow-x: auto;
+}
+.slide {
+  width: 300px;
+  flex-shrink: 0;
+  height: 100%;
+  margin: 15px;
+}
+.caption{
+	
+}
+.slide {
+    width: 429px;
+    height: 300px;
+    overflow: hidden;
+    border: 5px solid #e5e5e5;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+    transition-duration: 0.7s;
+}
+
+.slide img:hover {
+    transform: scale(1.2);
+}
+
+
+
+
+
+
+
+/*hình ảnh 3d xoay :*/
+body{
+ margin:0;
+ padding:0;
+ background-color:light-blue;
+}
+#container{
+ width:400px;
+ height:300px;
+ margin:auto;
+ margin-top:0px;
+}
+.cover{
+ width:400px;
+ height:300px;
+ animation:flip-animate 80s linear infinite; /*   Làm xoay các ảnh */
+ transform-style:preserve-3d; /*   các thành phần bên trong class cover sẽ hiển thị dưới dạng 3D */
+}
+#container .cover div{
+ width:400px;
+ height:300px;
+ position:absolute;
+}
+#container .cover div img{
+ width:400px;
+ height:300px;
+}
+#container .cover .front{
+ transform:translateZ(200px);/*   định vị lại ảnh trong class front dọc theo trục z trong không gian 3D */
+}
+#container .cover .back{
+ transform:rotateY(180deg) translateZ(200px);
+/*   xoay ảnh theo trục y là 180 độ và dịch chuyển đến trục Z */
+}
+#container .cover .left{
+ transform:rotateY(-90deg) translateX(-200px);
+  /*   xoay ảnh theo trục y là -90 độ và dịch chuyển đến trục X */
+ transform-origin:left;/*   Cho phép dịch chuyển phần tử sang trái */
+  
+}
+#container .cover .right{
+ transform:rotateY(90deg) translateX(200px);/*   xoay ảnh theo trục Y là 90 độ và dịch chuyển đến trục X */
+ transform-origin:right;/*   Cho phép dịch chuyển phần tử sang phải */
+}
+#container .cover .top{
+ transform:rotateX(-90deg) translateY(-200px);/*   xoay ảnh theo trục X là -90 độ và dịch chuyển đến trục Y */
+ transform-origin:top;/*   Cho phép dịch chuyển phần tử lên trên */
+}
+#container .cover .bottom{
+ transform:rotateX(90deg) translateY(200px);/*   xoay ảnh theo trục X là 90 độ và dịch chuyển đến trục Y */
+ transform-origin:bottom;/*   Cho phép dịch chuyển phần tử xuống dưới */
+}
+@keyframes flip-animate{
+ 0%{transform:rotateY(0);}
+ 100%{transform:rotateY(360deg);}
+}/* điều khiển các hiệu ứng của thuộc tính animation */
+
+
+
